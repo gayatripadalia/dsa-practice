@@ -24,10 +24,9 @@ int main() {
             second = arr[i];
         }
     }
-    if(second == INT_MIN) {
+    if(second == INT_MIN)
         printf("No second largest element (all same?)\n");
-    } else {
+    else
         printf("Second largest = %d\n", second);
-    }
     return 0;
 }
